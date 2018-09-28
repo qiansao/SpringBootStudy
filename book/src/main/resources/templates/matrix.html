@@ -1,0 +1,186 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Matrix</title>
+    <style>
+        .body{
+            background-color: rgb(250,251,252)
+        }
+        .info{
+            margin-left: 95px;margin-top: -10px
+        }
+        .a{
+            margin-left: 375px;margin-top: 12px;position:absolute;color:gray;font-size: 19pt
+        }
+        .matrix{
+            margin-left: 395px;margin-top: 12px;position:absolute;color:white;font-size: 19pt
+        }
+        .info1{
+            margin-left: 810px;margin-top: 18px;position:absolute
+        }
+        .info2{
+            margin-left: 858px;margin-top: 17px;position:absolute
+        }
+        .login{
+            margin-left: 895px;margin-top: 6px;position:absolute
+        }
+        .a3{
+            margin-top: -20px;padding-left: 120px;padding-right: 120px;border-bottom: 1px solid lightgray
+        }
+        .all{
+            margin-left:130px;margin-top:45px;background-color: rgb(250,251,252)
+        }
+        .lef{
+            margin-top: 20px
+        }
+        .a1{
+            font-weight: bolder;color: black
+        }
+        .a2{
+            margin-left: 750px;margin-top: -20px
+        }
+        .main{
+            margin-top: 10px;margin-left: 10px
+        }
+        .avatar{
+            border-radius: 100%;width: 40px
+        }
+        .name{
+            margin-left: 50px;margin-top: -40px;font-size: 10pt
+        }
+        .time{
+            margin-left: 50px;margin-top: -8px;font-size: 6pt;color: gray
+        }
+        .title{
+            margin-left: 10px;margin-top: 20px;font-size: 17pt;font-weight: bolder;width: 470px
+        }
+
+        .introduce{
+            margin-left: 10px;margin-top: -38px;font-size: 12pt;color:rgb(74,74,74);width: 470px
+        }
+        .p1{
+            margin-left:600px
+        }
+        .number1{
+            margin-left:628px;margin-top:-19px;color: gray
+        }
+        .p2{
+            margin-left:660px;margin-top: -36px
+        }
+        .number2{
+            margin-left:690px;margin-top:-21px;color: gray
+        }
+        .title2{
+            margin-left: 20px;margin-top: 10px; font-size: 15pt;color: rgb(74,74,74)
+        }
+        .text{
+            margin-left: 20px;margin-top: 5px; color: grey
+        }
+        .number3{
+            margin-left: 20px;margin-top: 15px; color: grey
+        }
+    </style>
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css" />
+</head>
+<body class="body">
+<div>
+    <nav class="navbar navbar-default" style="background-color: rgb(41,37,37); height: 60px; ">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img th:src="@{'img/'+${matrix.info}}" class="info">
+                    <a class="a">#</a>
+                    <a th:text="${(matrix.matrix)}" class="matrix"></a>
+                    <img th:src="@{'img/'+${matrix.info1}}" class="info1">
+                    <img th:src="@{'img/'+${matrix.info2}}" class="info2">
+                    <img th:src="@{'img/'+${matrix.login}}"  class="login">
+
+
+                </a>
+            </div>
+        </div>
+    </nav>
+
+</div>
+
+<div class="btn-group btn-group-justified  a3" role="group" aria-label="..."   >
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default">正版软件</button>
+    </div>
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default">付费栏目</button>
+    </div>
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default">Matrix</button>
+    </div>
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default">专题广场</button>
+    </div>
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default">热门文章</button>
+    </div>
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default">应用推荐</button>
+    </div>
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default">生活方式</button>
+    </div>
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default">新玩意</button>
+    </div>
+
+
+
+</div >
+<div class="all">
+    <img src="img/11.png">
+    <div class="lef">
+        <a class="a1">精选专栏文章</a>
+    </div>
+    <div class="a2">
+        <a style="font-weight: bolder;color: black">推荐专栏</a>
+        <a style="color: grey;margin-left: 230px"  >查看全部</a>
+
+    </div>
+</div>
+
+<div class="container" style="margin-top: 20px">
+    <div class="col-md-8 ">
+        <div class="thumbnail"  th:each="card:${cardList}">
+            <div class="main">
+                <img th:src="@{'img/'+${card.avatar}}" class="avatar">
+            </div>
+            <p th:text="${card.name}" class="name"></p>
+            <p th:text="${card.time}" class="time"></p>
+            <p th:text="${card.title}" class="title"></p>
+
+            <img th:src="@{'img/'+${card.picture}}"  style="margin-left: 500px;margin-top: -80px;width: 200px">
+
+            <p th:text="${card.introduce}" class="introduce"></p>
+            <img src="img/26.png" class="p1">
+            <p th:text="${card.number1}" class="number1"></p>
+            <img src="img/27.png" class="p2">
+            <p th:text="${card.number2}" class="number2"></p>
+        </div>
+    </div>
+    <div class="col-md-4">
+
+        <div class="thumbnail" th:each="card2:${card2List}">
+            <img th:src="@{'img/'+${card2.pic}}" style="width: 100%" >
+            <p th:text="${card2.title}" class="title2"></p>
+            <p th:text="${card2.text}" class="text"></p>
+            <p th:text="${card2.number}" class="number3"></p>
+            <img src="img/32.png" style="margin-left: 200px;margin-top: -50px">
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+</body>
+</html>
