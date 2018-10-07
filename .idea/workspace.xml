@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6361682-4d0d-4ee2-94ae-d24853f95441" name="Default" comment="" />
+    <list default="true" id="b6361682-4d0d-4ee2-94ae-d24853f95441" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/book/src/main/java/com/example/book/controller/AlbumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/main/java/com/example/book/dao/AlbumRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/main/java/com/example/book/dao/PictureListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/main/java/com/example/book/dao/PictureRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/main/java/com/example/book/entity/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/main/java/com/example/book/entity/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/main/java/com/example/book/entity/PictureList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/main/java/com/example/book/entity/ScheduleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/main/java/com/example/book/service/AlbumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/main/java/com/example/book/service/Impl/AlbumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/test/java/com/example/book/dao/AlbumRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/test/java/com/example/book/dao/PictureListRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/test/java/com/example/book/dao/PictureRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/test/java/com/example/book/service/AlbumServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book/src/test/java/com/example/book/service/Impl/AlbumServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/50b6853c-1c77-4a4e-9cc7-3f964be882c0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/java/com/example/book/BookApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/main/java/com/example/book/BookApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/java/com/example/book/dao/UserRepositry.java" beforeDir="false" afterPath="$PROJECT_DIR$/book/src/main/java/com/example/book/dao/UserRepositry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/java/com/example/quickstart/QuickstartApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/java/com/example/quickstart/controller/CardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/java/com/example/quickstart/dao/Card2DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/java/com/example/quickstart/dao/CardDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/java/com/example/quickstart/entity/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/java/com/example/quickstart/entity/Card2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/java/com/example/quickstart/entity/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/static/img/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/templates/bookDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/templates/bookList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/templates/img/ce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/templates/img/find.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/templates/img/guanzhu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/templates/img/liaotian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/templates/img/top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/templates/img/tu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/templates/img/xiaoxi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/main/resources/templates/matrix.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book/src/test/java/com/example/quickstart/QuickstartApplicationTests.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/quickstart/target/" />
     <ignored path="$PROJECT_DIR$/spring-data-jpa/target/" />
     <ignored path="$PROJECT_DIR$/book/target/" />
@@ -28,131 +85,33 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="springboot_test@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="springboot_test@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="springboot_test@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="springboot_test: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/controller/BookController.java">
+      <file leaf-file-name="BookApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/BookApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="106">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/service/UserService.java">
+      <file leaf-file-name="ScheduleTask.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/entity/ScheduleTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="49" />
+            <state relative-caret-position="108">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysUser.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/entity/SysUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepositryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/src/test/java/com/example/book/dao/UserRepositryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepositry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/dao/UserRepositry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/service/Impl/BookServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/service/Impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,31 +124,17 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/quickstart" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/quickstart/src/main/java/com/example/quickstart/entity/Recommend.java" />
-        <option value="$PROJECT_DIR$/quickstart/src/main/java/com/example/quickstart/entity/User.java" />
-        <option value="$PROJECT_DIR$/quickstart/src/main/java/com/example/quickstart/entity/Card.java" />
-        <option value="$PROJECT_DIR$/quickstart/src/main/java/com/example/quickstart/entity/Card2.java" />
-        <option value="$PROJECT_DIR$/quickstart/src/main/java/com/example/quickstart/entity/Matrix.java" />
-        <option value="$PROJECT_DIR$/quickstart/src/main/java/com/example/quickstart/dao/CardDAO.java" />
-        <option value="$PROJECT_DIR$/quickstart/src/main/java/com/example/quickstart/dao/Card2DAO.java" />
-        <option value="$PROJECT_DIR$/quickstart/src/main/java/com/example/quickstart/controller/CardController.java" />
-        <option value="$PROJECT_DIR$/quickstart/src/main/resources/templates/matrix.html" />
-        <option value="$PROJECT_DIR$/quickstart/README.md" />
-        <option value="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/entity/MyUsers.java" />
-        <option value="$PROJECT_DIR$/spring-data-jpa/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/service/StudentService.java" />
-        <option value="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/dao/StudentRespository.java" />
         <option value="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/service/impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/entity/Student.java" />
         <option value="$PROJECT_DIR$/spring-data-jpa/src/test/java/com/example/springdatajpa/service/impl/StudentServiceImplTest.java" />
@@ -212,16 +157,35 @@
         <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/dao/BookRespository.java" />
         <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/controller/SysUser.java" />
         <option value="$PROJECT_DIR$/book/pom.xml" />
-        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/BookApplication.java" />
         <option value="$PROJECT_DIR$/book/src/test/java/com/example/book/service/Impl/BookServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/book/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/book/src/test/java/com/example/book/service/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/book/src/test/java/com/example/book/service/Impl/UserServiceImplTest.java" />
         <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/service/UserService.java" />
         <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/dao/UserRepositry.java" />
         <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/service/Impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/book/src/test/java/com/example/book/dao/UserRepositryTest.java" />
+        <option value="$PROJECT_DIR$/book/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/dao/UserRepositry.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/dao/‘.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/entity/Photo.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/dao/PhotoRepository.java" />
+        <option value="$PROJECT_DIR$/book/src/test/java/com/example/book/dao/PhotoRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/book/src/test/java/com/example/book/service/Impl/AlbumServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/dao/PictureRepository.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/entity/Picture.java" />
+        <option value="$PROJECT_DIR$/book/src/test/java/com/example/book/dao/PictureRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/entity/Album.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/dao/AlbumRepository.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/service/Impl/AlbumServiceImpl.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/service/AlbumService.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/controller/AlbumController.java" />
+        <option value="$PROJECT_DIR$/book/src/test/java/com/example/book/service/AlbumServiceTest.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/dao/PictureListRepository.java" />
+        <option value="$PROJECT_DIR$/book/src/test/java/com/example/book/dao/AlbumRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/entity/PictureList.java" />
+        <option value="$PROJECT_DIR$/book/src/test/java/com/example/book/dao/PictureListRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/BookApplication.java" />
+        <option value="$PROJECT_DIR$/book/src/main/java/com/example/book/entity/ScheduleTask.java" />
       </list>
     </option>
   </component>
@@ -245,7 +209,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="book" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="quickstart" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -266,8 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -387,14 +350,6 @@
               <item name="SpringBootExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -469,7 +424,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -484,13 +440,14 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/projects/SpringBoot (1)/SpringBoot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -507,8 +464,11 @@
       <recent name="com.example.quickstart.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SpringBoot\SpringBootExample\book\src\main\resources\templates\img" />
-      <recent name="D:\SpringBoot\SpringBootExample\quickstart\src\main\resources\static\img" />
+      <recent name="D:\SpringBoot\SpringBootExample\book\src\main\java\com\example\book\entity" />
+      <recent name="D:\SpringBoot\SpringBootExample\book\src\main\java\com\example\book\service\Impl" />
+      <recent name="D:\SpringBoot\SpringBootExample\book\src\main\java\com\example\book\service" />
+      <recent name="D:\SpringBoot\SpringBootExample\book\src\main\java\com\example\book\dao" />
+      <recent name="D:\SpringBoot\SpringBootExample\book\src\main\java\com\example\book\controller" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -533,7 +493,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="UserRepositryTest.findByAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlbumRepositoryTest.findHotAlbums" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -544,8 +504,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.example.book.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.book.dao.UserRepositryTest" />
-      <option name="METHOD_NAME" value="findByAccount" />
+      <option name="MAIN_CLASS_NAME" value="com.example.book.dao.AlbumRepositoryTest" />
+      <option name="METHOD_NAME" value="findHotAlbums" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -556,7 +516,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserRepositryTest.findByFansBetween" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlbumRepositoryTest.initData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -567,8 +527,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.example.book.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.book.dao.UserRepositryTest" />
-      <option name="METHOD_NAME" value="findByFansBetween" />
+      <option name="MAIN_CLASS_NAME" value="com.example.book.dao.AlbumRepositoryTest" />
+      <option name="METHOD_NAME" value="initData" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -579,7 +539,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserRepositryTest.findByNickname" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhotoRepositoryTest.initData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -590,8 +550,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.example.book.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.book.dao.UserRepositryTest" />
-      <option name="METHOD_NAME" value="findByNickname" />
+      <option name="MAIN_CLASS_NAME" value="com.example.book.dao.PhotoRepositoryTest" />
+      <option name="METHOD_NAME" value="initData" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -602,7 +562,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserRepositryTest.findByNicknameLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PictureListRepositoryTest.initData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -613,8 +573,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.example.book.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.book.dao.UserRepositryTest" />
-      <option name="METHOD_NAME" value="findByNicknameLike" />
+      <option name="MAIN_CLASS_NAME" value="com.example.book.dao.PictureListRepositoryTest" />
+      <option name="METHOD_NAME" value="initData" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -625,7 +585,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserRepositryTest.findOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PictureRepositoryTest.initData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
@@ -636,8 +596,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.example.book.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.example.book.dao.UserRepositryTest" />
-      <option name="METHOD_NAME" value="findOne" />
+      <option name="MAIN_CLASS_NAME" value="com.example.book.dao.PictureRepositoryTest" />
+      <option name="METHOD_NAME" value="initData" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -663,6 +623,16 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="book" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration name="BookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="book" />
@@ -702,19 +672,19 @@
       <item itemvalue="Spring Boot.QuickstartApplication" />
       <item itemvalue="Spring Boot.SpringDataJpaApplication" />
       <item itemvalue="Spring Boot.BookApplication" />
-      <item itemvalue="JUnit.UserRepositryTest.findByNickname" />
-      <item itemvalue="JUnit.UserRepositryTest.findByFansBetween" />
-      <item itemvalue="JUnit.UserRepositryTest.findByNicknameLike" />
-      <item itemvalue="JUnit.UserRepositryTest.findByAccount" />
-      <item itemvalue="JUnit.UserRepositryTest.findOne" />
+      <item itemvalue="JUnit.AlbumRepositoryTest.initData" />
+      <item itemvalue="JUnit.AlbumRepositoryTest.findHotAlbums" />
+      <item itemvalue="JUnit.PictureRepositoryTest.initData" />
+      <item itemvalue="JUnit.PhotoRepositoryTest.initData" />
+      <item itemvalue="JUnit.PictureListRepositoryTest.initData" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserRepositryTest.findOne" />
-        <item itemvalue="JUnit.UserRepositryTest.findByNicknameLike" />
-        <item itemvalue="JUnit.UserRepositryTest.findByAccount" />
-        <item itemvalue="JUnit.UserRepositryTest.findByFansBetween" />
-        <item itemvalue="JUnit.UserRepositryTest.findByNickname" />
+        <item itemvalue="JUnit.PictureListRepositoryTest.initData" />
+        <item itemvalue="JUnit.AlbumRepositoryTest.initData" />
+        <item itemvalue="JUnit.PictureRepositoryTest.initData" />
+        <item itemvalue="JUnit.PhotoRepositoryTest.initData" />
+        <item itemvalue="JUnit.AlbumRepositoryTest.findHotAlbums" />
       </list>
     </recent_temporary>
   </component>
@@ -732,7 +702,12 @@
       <workItem from="1537402015775" duration="33781000" />
       <workItem from="1537974385541" duration="1644000" />
       <workItem from="1538006260125" duration="24112000" />
-      <workItem from="1538144904100" duration="86000" />
+      <workItem from="1538144904100" duration="3867000" />
+      <workItem from="1538179873286" duration="6028000" />
+      <workItem from="1538187798875" duration="156000" />
+      <workItem from="1538188221833" duration="358000" />
+      <workItem from="1538188705144" duration="25871000" />
+      <workItem from="1538907302222" duration="860000" />
     </task>
     <task id="LOCAL-00001" summary="add quickstart module">
       <created>1537165125761</created>
@@ -766,72 +741,73 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserRepositryTest_initData - 2018.09.27 at 10h 29m 26s.xml">
-      <configuration name="UserRepositryTest.initData" configurationId="JUnit" />
+    <history-entry file="PictureRepositoryTest_initData - 2018.10.01 at 21h 29m 25s.xml">
+      <configuration name="PictureRepositoryTest.initData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRepositryTest_findByNickname - 2018.09.27 at 10h 30m 48s.xml">
-      <configuration name="UserRepositryTest.findByNickname" configurationId="JUnit" />
+    <history-entry file="PictureListRepositoryTest_initData - 2018.10.01 at 21h 29m 56s.xml">
+      <configuration name="PictureListRepositoryTest.initData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRepositryTest_findByFansBetween - 2018.09.27 at 10h 48m 07s.xml">
-      <configuration name="UserRepositryTest.findByFansBetween" configurationId="JUnit" />
+    <history-entry file="PictureListRepositoryTest_initData - 2018.10.01 at 21h 30m 27s.xml">
+      <configuration name="PictureListRepositoryTest.initData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRepositryTest_findByNicknameLike - 2018.09.27 at 10h 50m 26s.xml">
-      <configuration name="UserRepositryTest.findByNicknameLike" configurationId="JUnit" />
+    <history-entry file="PictureListRepositoryTest_initData - 2018.10.01 at 21h 45m 33s.xml">
+      <configuration name="PictureListRepositoryTest.initData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRepositryTest_findByAccount - 2018.09.27 at 13h 35m 10s.xml">
-      <configuration name="UserRepositryTest.findByAccount" configurationId="JUnit" />
+    <history-entry file="AlbumRepositoryTest_initData - 2018.10.01 at 21h 55m 40s.xml">
+      <configuration name="AlbumRepositoryTest.initData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRepositryTest_findByNicknameLike - 2018.09.27 at 13h 41m 36s.xml">
-      <configuration name="UserRepositryTest.findByNicknameLike" configurationId="JUnit" />
+    <history-entry file="PictureListRepositoryTest_initData - 2018.10.01 at 21h 56m 19s.xml">
+      <configuration name="PictureListRepositoryTest.initData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRepositryTest_findByNicknameLike - 2018.09.27 at 13h 42m 09s.xml">
-      <configuration name="UserRepositryTest.findByNicknameLike" configurationId="JUnit" />
+    <history-entry file="AlbumRepositoryTest_initData - 2018.10.01 at 22h 55m 42s.xml">
+      <configuration name="AlbumRepositoryTest.initData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRepositryTest_findByNicknameLike - 2018.09.27 at 13h 43m 07s.xml">
-      <configuration name="UserRepositryTest.findByNicknameLike" configurationId="JUnit" />
+    <history-entry file="PictureListRepositoryTest_initData - 2018.10.01 at 22h 56m 25s.xml">
+      <configuration name="PictureListRepositoryTest.initData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRepositryTest_findOne - 2018.09.27 at 15h 16m 16s.xml">
-      <configuration name="UserRepositryTest.findOne" configurationId="JUnit" />
+    <history-entry file="AlbumRepositoryTest_initData - 2018.10.01 at 23h 15m 10s.xml">
+      <configuration name="AlbumRepositoryTest.initData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserRepositryTest_findOne - 2018.09.27 at 15h 19m 20s.xml">
-      <configuration name="UserRepositryTest.findOne" configurationId="JUnit" />
+    <history-entry file="PictureListRepositoryTest_initData - 2018.10.01 at 23h 15m 48s.xml">
+      <configuration name="PictureListRepositoryTest.initData" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70019000" />
+    <option name="totallyTimeSpent" value="107073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.123298034" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.2254902" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.204236" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.037398376" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3284553" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36422765" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5698052" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18154311" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23089431" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23600605" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.006807867" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3284553" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.058536585" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.057010785" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -888,267 +864,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/entity/SysUser.java">
+    <entry file="file://$PROJECT_DIR$/book/src/test/java/com/example/book/dao/AlbumRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/test/java/com/example/book/dao/PictureListRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart/src/main/java/com/example/quickstart/dao/CardDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart/src/main/java/com/example/quickstart/dao/Card2DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/resources/templates/bookList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/resources/templates/bookDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/test/java/com/example/springdatajpa/service/impl/StudentServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="61" column="21" selection-start-line="48" selection-start-column="7" selection-end-line="61" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="57" lean-forward="true" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/SpringDataJpaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/entity/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/dao/BookRespository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="5" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/test/java/com/example/springdatajpa/service/impl/BookServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/controller/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example/springdatajpa/service/impl/BookServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart/src/main/resources/templates/matrix.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4374">
-          <caret line="162" column="45" selection-start-line="162" selection-start-column="45" selection-end-line="162" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/entity/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book/src/main/resources/templates/bookDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart/src/main/java/com/example/quickstart/entity/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart/src/test/java/com/example/quickstart/QuickstartApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/hibernate_sequence">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book/book.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/sys_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/dao/BookRespository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1159,40 +889,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/BookApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book/src/test/java/com/example/book/service/UserServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1201,106 +902,262 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/service/BookService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/entity/Albm.java" />
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/entity/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/dao/UserRepositry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="79">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/service/Impl/BookServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="188">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/service/Impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book/src/test/java/com/example/book/dao/UserRepositryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="783">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/dao/UserRepositry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/album" />
+    <entry file="file://$PROJECT_DIR$/book/src/test/java/com/example/book/dao/UserRepositryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/MyRepository/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="134" column="30" lean-forward="true" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://50b6853c-1c77-4a4e-9cc7-3f964be882c0/schema/springboot_test/table/picture" />
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1120845268/FileRecv/新建文件夹/spring-data-jpa/src/main/java/com/example1/springdatajpa/entity/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1120845268/FileRecv/新建文件夹/spring-data-jpa/src/main/java/com/example1/springdatajpa/entity/Photo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1120845268/FileRecv/新建文件夹/spring-data-jpa/src/test/java/com/example1/springdatajpa/dao/PhotoRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/service/PictureService.java" />
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1120845268/FileRecv/新建文件夹/spring-data-jpa/src/main/java/com/example1/springdatajpa/Controller/AlbumController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <caret line="25" column="5" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1120845268/FileRecv/新建文件夹/spring-data-jpa/src/main/java/com/example1/springdatajpa/dao/AlbumRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1120845268/FileRecv/新建文件夹/spring-data-jpa/src/main/java/com/example1/springdatajpa/Services/AlbumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1120845268/FileRecv/新建文件夹/spring-data-jpa/src/main/java/com/example1/springdatajpa/Services/impl/AlbumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="24" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/dao/PhotoRepository.java" />
+    <entry file="file://$PROJECT_DIR$/book/src/test/java/com/example/book/dao/PhotoRepositoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/book/src/test/java/com/example/book/service/Impl/AlbumServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/dao/AlbumRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/service/AlbumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/service/Impl/AlbumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/controller/AlbumController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/dao/PictureRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/entity/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/entity/Picture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/entity/SysUser.java">
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/dao/PictureListRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/test/java/com/example/book/dao/PictureRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/test/java/com/example/book/service/AlbumServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/entity/PictureList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/test/java/com/example/book/dao/PictureListRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/test/java/com/example/book/dao/AlbumRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="19" column="27" selection-start-line="19" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/BookApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/src/main/java/com/example/book/entity/ScheduleTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1379,5 +1236,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>
