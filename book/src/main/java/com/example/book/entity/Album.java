@@ -2,6 +2,7 @@ package com.example.book.entity;
 
 import lombok.Data;
 
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,11 +15,11 @@ public class Album {
     private Integer id;
     private String albumCover;
     private String albumTitle;
-    private String  albumDescription;
+    private String albumDescription;
     private Integer likes;
 
 
-    @OneToMany(fetch = FetchType.EAGER,cascade = CascadeType.REMOVE)
+    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.REMOVE)
     @JoinColumn(name = "picture_id")
 
     private List<PictureList> pictureList = new ArrayList<>();

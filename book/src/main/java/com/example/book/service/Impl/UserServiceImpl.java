@@ -27,23 +27,24 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
- public SysUser getUser(Long id) {
+    public SysUser getUser(Long id) {
         return userRepositry.findById(id).get();
-        }
+    }
 
     @Override
-    public List<SysUser> getUserfindByNicknameLike(String nickname){
+    public List<SysUser> getUserfindByNicknameLike(String nickname) {
         return userRepositry.findByNicknameLike(nickname);
     }
-@Override
-    public SysUser getUserfindByAccount(String account){
-        return userRepositry.findByAccount(account);
-}
+
     @Override
- public List<SysUser> getUsersOrderByFans(String nickname) {
-        return userRepositry.findUsers(nickname);
+    public SysUser getUserfindByAccount(String account) {
+        return userRepositry.findByAccount(account);
     }
 
+    @Override
+    public List<SysUser> getUsersOrderByFans(String nickname) {
+        return userRepositry.findUsers(nickname);
+    }
 
 
 }

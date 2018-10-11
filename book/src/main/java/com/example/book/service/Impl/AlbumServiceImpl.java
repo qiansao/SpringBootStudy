@@ -13,6 +13,7 @@ import java.util.List;
 public class AlbumServiceImpl implements AlbumService {
     @Resource
     private AlbumRepository albumRepository;
+
     @Override
     public List<Album> getAll() {
         return albumRepository.findAll();

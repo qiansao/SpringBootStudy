@@ -9,14 +9,16 @@ import org.springframework.test.context.junit4.SpringRunner;
 import javax.annotation.Resource;
 
 import static org.junit.Assert.*;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class PictureRepositoryTest {
     @Resource
     private PictureRepository pictureRepository;
+
     @Test
-    public void initData(){
-        Picture[] pictures={
+    public void initData() {
+        Picture[] pictures = {
                 new Picture("https://upload-images.jianshu.io/upload_images/2540948-ceb8ff463e53dbb1?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"),
                 new Picture("https://upload-images.jianshu.io/upload_images/2540948-ceb8ff463e53dbb1?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"),
                 new Picture("https://upload-images.jianshu.io/upload_images/2540948-ceb8ff463e53dbb1?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"),
@@ -29,7 +31,7 @@ public class PictureRepositoryTest {
 
 
         };
-        for (int i=0;i<pictures.length;i++){
+        for (int i = 0; i < pictures.length; i++) {
             pictureRepository.save(pictures[i]);
         }
     }

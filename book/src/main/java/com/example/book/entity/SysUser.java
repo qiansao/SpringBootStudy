@@ -16,7 +16,7 @@ public class SysUser implements Serializable {
     private Long id;
     @Column(nullable = false)
     private String account;
-    private  String password;
+    private String password;
     private String nickname;
     private int fans;
 

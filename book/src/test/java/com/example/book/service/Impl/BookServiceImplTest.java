@@ -1,4 +1,5 @@
 package com.example.book.service.Impl;
+
 import com.example.book.entity.Book;
 import com.example.book.service.BookService;
 import org.junit.Test;
@@ -16,7 +17,7 @@ public class BookServiceImplTest {
     private BookService bookService;
 
     @Test
-    public void save(){
+    public void save() {
         String[] names = {"顾城精选集", "我喜欢生命本来的样子", "莎士比亚戏剧全集", "城南旧事", "沉默的大多数"};
         String[] writers = {"顾城", "周国平", "威廉•莎士比亚", "林海音", "王小波"};
         String[] introductions = {"以“童话诗人”著称，用“黑色的眼睛”寻找光明；朦胧派的代表，与北岛、舒婷等开启了新中国诗歌的新时代；收入《一代人》等名篇。",
@@ -30,7 +31,7 @@ public class BookServiceImplTest {
                 "http://img3m2.ddimg.cn/86/10/25091042-1_b_2.jpg",
                 "http://img3m1.ddimg.cn/74/30/23961341-1_l_2.jpg"};
         for (int i = 0; i < 5; i++) {
-           Book book=new Book();
+            Book book = new Book();
             book.setAvatar(avatars[i]);
             book.setName(names[i]);
             book.setWriter(writers[i]);

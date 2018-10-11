@@ -8,11 +8,13 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
-public interface UserRepositry extends JpaRepository<SysUser,Long> {
+public interface UserRepositry extends JpaRepository<SysUser, Long> {
     SysUser findByAccount(String account);
-     List<SysUser> findByFansBetween(Integer num1, Integer num2);
-     List<SysUser> findByNicknameLike(String nickname);
+
+    List<SysUser> findByFansBetween(Integer num1, Integer num2);
+
+    List<SysUser> findByNicknameLike(String nickname);
 
     @Query("from SysUser u where u.nickname like CONCAT('%',:nickname,'%') order by u.fans desc ")
- List<SysUser> findUsers(@Param("nickname") String nickname);
+    List<SysUser> findUsers(@Param("nickname") String nickname);
 }

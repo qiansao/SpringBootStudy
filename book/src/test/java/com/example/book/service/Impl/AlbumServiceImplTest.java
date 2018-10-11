@@ -15,6 +15,7 @@ public class AlbumServiceImplTest {
 
     @Resource
     private AlbumService albumService;
+
     @Test
     public void findOne() {
         System.out.println(albumService);

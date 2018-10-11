@@ -10,7 +10,10 @@ public interface UserService {
     List<SysUser> getAll();
 
     SysUser getUser(Long id);
+
     List<SysUser> getUserfindByNicknameLike(String nickname);
+
     SysUser getUserfindByAccount(String account);
+
     List<SysUser> getUsersOrderByFans(String nickname);
 }
